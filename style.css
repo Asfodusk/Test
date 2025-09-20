@@ -6,8 +6,12 @@
                 text-decoration: none;
             }
             body {
+                margin-left: 176px;
+                margin-right: 20 px;
                 box-sizing: border-box;
-                font-family: sans-serif;
+                flex-direction: column;
+                margin-left: 200px;
+                margin-right: 20px;
             }
             .message {
                 padding: 20px;
@@ -16,7 +20,8 @@
                 border-radius: 2px;
             }
             .blockquote {
-                background-color: #f8f9fa;
+                border-left:3px solid black;
+            padding-left: 17px;
             }
             .navi {
                 padding: 5px;
@@ -38,4 +43,5 @@
             }
             p {
                 margin-bottom: 15px;
+                font-size: 14px;
             }
